@@ -1,0 +1,958 @@
+/*Nash Vail's responsive dot background*/
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.4;
+}
+
+.ball.active {
+  opacity: 0;
+}
+
+/*my css*/
+body {
+	background-color: #F0FFFF;
+}
+ 
+h1 {
+	position: absolute;
+	display: inline-flex;
+	left: 470px;
+	top: -65px;
+	font-family: 'Jomhuria', cursive;
+	background-color: #F0FFFF;
+	font-size: 150px;
+	text-align: center;
+	letter-spacing: 5px;
+	z-index: 1;
+}
+
+h1:hover {
+	cursor: default;
+}
+ 
+h2 {
+	position: absolute;
+	width: 478px;
+	height: 48px;
+	left: 481px;
+	top: 145px;
+	font-family: Basic Sans;
+	font-size: 32px;
+	line-height: 48px;
+	color: #2F4F4F;
+	background-color: #F0FFFF;
+	text-align: center;
+	z-index: 1;
+}
+
+h2:hover {
+	cursor: default;
+}
+
+h3 {
+	font-family: 'Jomhuria', cursive;
+	font-size: 75px;
+	font-weight: normal;
+}
+
+/*restart buttons*/
+a.one {
+	position: absolute;
+	width: 115px;
+	height: 42px;
+	left: 1300px;
+	top: 630px;
+	font-family: Basic Sans;
+	font-size: 20px;
+	color: #FF6D40;
+	text-decoration: none;
+	z-index: 1;
+}
+ 
+a.one:hover {
+	color: #A9A9A9;
+}
+
+a.two {
+	position: absolute;
+	width: 115px;
+	height: 42px;
+	left: 1300px;
+	top: 630px;
+	font-family: Basic Sans;
+	font-size: 20px;
+	color: #7DAFFF;
+	text-decoration: none;
+	z-index: 1;
+}
+ 
+a.two:hover {
+	color: #A9A9A9;
+}
+
+a.three {
+	position: absolute;
+	width: 115px;
+	height: 42px;
+	left: 1300px;
+	top: 630px;
+	font-family: Basic Sans;
+	font-size: 20px;
+	color: #A9D800;
+	text-decoration: none;
+	z-index: 1;
+}
+ 
+a.three:hover {
+	color: #A9A9A9;
+}
+
+a.four {
+	position: absolute;
+	width: 115px;
+	height: 42px;
+	left: 1300px;
+	top: 630px;
+	font-family: Basic Sans;
+	font-size: 20px;
+	color: #FFCE31;
+	text-decoration: none;
+	z-index: 1;
+}
+ 
+a.four:hover {
+	color: #A9A9A9;
+}
+
+a.five {
+	position: absolute;
+	width: 115px;
+	height: 42px;
+	left: 1300px;
+	top: 630px;
+	font-family: Basic Sans;
+	font-size: 20px;
+	color: #A100FF;
+	text-decoration: none;
+	z-index: 1;
+}
+ 
+a.five:hover {
+	color: #A9A9A9;
+}
+
+a.six {
+	position: absolute;
+	width: 115px;
+	height: 42px;
+	left: 1300px;
+	top: 630px;
+	font-family: Basic Sans;
+	font-size: 20px;
+	color: #FF85C2;
+	text-decoration: none;
+	z-index: 1;
+}
+ 
+a.six:hover {
+	color: #A9A9A9;
+}
+
+/*gif*/
+a.seven {
+	position: absolute;
+	left: 20px;
+	top: 660px;
+	z-index: 1;
+}
+ 
+/*moods*/
+ 
+#moods {
+	display: block;
+}
+ 
+#moods.active {
+	display: none;
+}
+ 
+#happy {
+	position: absolute;
+    left: 450px;
+    top: 280px;
+    font-family: Basic Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 0px;
+    color: #2F4F4F;
+    background-color: #F0FFFF;
+    border: 3px solid #2F4F4F;
+    border-radius: 20px;
+    height: 72px;
+    text-align: center;
+    width: 200px;
+    z-index: 1;
+}
+ 
+#happy:hover {
+  color: #FF6D40;
+  border: solid #FF6D40;
+  cursor: pointer;
+}
+ 
+#sad {
+	position: absolute;
+	left: 450px;
+	top: 396px;
+	font-family: Basic Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 0px;
+    color: #2F4F4F;
+    background-color: #F0FFFF;
+    border: 3px solid #2F4F4F;
+    border-radius: 20px;
+    height: 72px;
+    text-align: center;
+    width: 200px;
+    z-index: 1;
+}
+ 
+#sad:hover {
+  color: #7DAFFF;
+  border: solid #7DAFFF;
+  cursor: pointer;
+}
+ 
+#disgusted {
+	position: absolute;
+	left: 450px;
+	top: 514px;
+	font-family: Basic Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 0px;
+    color: #2F4F4F;
+    background-color: #F0FFFF;
+    border: 3px solid #2F4F4F;
+    border-radius: 20px;
+    height: 72px;
+    text-align: center;
+    width: 200px;
+    z-index: 1;
+}
+ 
+#disgusted:hover {
+  color: #A9D800;
+  border: solid #A9D800;
+  cursor: pointer;
+}
+ 
+#scared {
+	position: absolute;
+	left: 800px;
+	top: 280px;
+	font-family: Basic Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 0px;
+    color: #2F4F4F;
+    background-color: #F0FFFF;
+    border: 3px solid #2F4F4F;
+    border-radius: 20px;
+    height: 72px;
+    text-align: center;
+    width: 200px;
+    z-index: 1;
+}
+ 
+#scared:hover {
+  color: #FFCE31;
+  border: solid #FFCE31;
+  cursor: pointer;
+}
+ 
+#angry {
+	position: absolute;
+	left: 800px;
+	top: 396px;
+	font-family: Basic Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 0px;
+    color: #2F4F4F;
+    background-color: #F0FFFF;
+    border: 3px solid #2F4F4F;
+    border-radius: 20px;
+    height: 72px;
+    text-align: center;
+    width: 200px;
+    z-index: 1;
+}
+ 
+#angry:hover {
+  color: #A100FF;
+  border: solid #A100FF;
+  cursor: pointer;
+}
+ 
+#surprised {
+	position: absolute;
+	left: 800px;
+	top: 514px;
+	font-family: Basic Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 0px;
+    color: #2F4F4F;
+    background-color: #F0FFFF;
+    border: 3px solid #2F4F4F;
+    border-radius: 20px;
+    height: 72px;
+    text-align: center;
+    width: 200px;
+    z-index: 1;
+}
+ 
+#surprised:hover {
+  color: #FF85C2;
+  border: solid #FF85C2;
+  cursor: pointer;
+}
+ 
+/*recipes*/
+ 
+#recipe1 {
+	display: none;
+}
+ 
+#recipe1.active {
+	display: block;
+	height: 97.5vh;
+}
+ 
+#recipe1img {
+	position: absolute;
+	left: 70px;
+	top: 140px;
+	z-index: 1;
+}
+ 
+#recipe1name {
+	position: absolute;
+	left: 575px;
+	top: 15px;
+	line-height: 57px;
+	color: #2F4F4F;
+	text-decoration: underline;
+	text-decoration-color: #FF6D40;
+	z-index: 1;
+}
+ 
+#recipe1ul {
+	position: absolute;
+	width: 387px;
+	height: 180px;
+	left: 570px;
+	top: 140px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe1ol {
+	position: absolute;
+	left: 570px;
+	top: 385px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 140%;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe2 {
+	display: none;
+}
+ 
+#recipe2.active {
+	display: block;
+	height: 97.5vh;
+}
+ 
+#recipe2img {
+	position: absolute;
+	left: 160px;
+	top: 140px;
+	z-index: 1;
+}
+ 
+#recipe2name {
+	position: absolute;
+	left: 700px;
+	top: 88px;
+	line-height: 57px;
+	color: #2F4F4F;
+	text-decoration: underline;
+	text-decoration-color: #7DAFFF;
+	z-index: 1;
+}
+ 
+#recipe2ul {
+	position: absolute;
+	width: 387px;
+	height: 180px;
+	left: 695px;
+	top: 215px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe2ol {
+	position: absolute;
+	left: 695px;
+	top: 305px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 140%;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe3 {
+	display: none;
+}
+ 
+#recipe3.active {
+	display: block;
+	height: 97.5vh;
+}
+ 
+#recipe3img {
+	position: absolute;
+	left: 70px;
+	top: 140px;
+	z-index: 1;
+}
+ 
+#recipe3name {
+	position: absolute;
+	left: 575px;
+	top: 10px;
+	line-height: 57px;
+	color: #2F4F4F;
+	text-decoration: underline;
+	text-decoration-color: #A9D800;
+	z-index: 1;
+}
+ 
+#recipe3ul {
+	position: absolute;
+	width: 387px;
+	height: 180px;
+	left: 570px;
+	top: 137px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe3ol {
+	position: absolute;
+	left: 570px;
+	top: 485px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 140%;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe4 {
+	display: none;
+}
+ 
+#recipe4.active {
+	display: block;
+	height: 97.5vh;
+}
+ 
+#recipe4img {
+	position: absolute;
+	left: 70px;
+	top: 140px;
+	z-index: 1;
+}
+ 
+#recipe4name {
+	position: absolute;
+	left: 575px;
+	top: 20px;
+	line-height: 57px;
+	color: #2F4F4F;
+	text-decoration: underline;
+	text-decoration-color: #FFCE31;
+	z-index: 1;
+}
+ 
+#recipe4ul {
+	position: absolute;
+	width: 387px;
+	height: 180px;
+	left: 570px;
+	top: 142px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe4ol {
+	position: absolute;
+	left: 570px;
+	top: 385px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 140%;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe5 {
+	display: none;
+}
+ 
+#recipe5.active {
+	display: block;
+	height: 97.5vh;
+}
+ 
+#recipe5img {
+	position: absolute;
+	left: 70px;
+	top: 140px;
+	z-index: 1;
+}
+ 
+#recipe5name {
+	position: absolute;
+	left: 575px;
+	top: 15px;
+	line-height: 57px;
+	color: #2F4F4F;
+	text-decoration: underline;
+	text-decoration-color: #A100FF;
+	z-index: 1;
+}
+ 
+#recipe5ul {
+	position: absolute;
+	width: 387px;
+	height: 180px;
+	left: 570px;
+	top: 140px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe5ol {
+	position: absolute;
+	left: 570px;
+	top: 465px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 140%;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe6 {
+	display: none;
+}
+ 
+#recipe6.active {
+	display: block;
+	height: 97.5vh;
+}
+ 
+#recipe6img {
+	position: absolute;
+	left: 160px;
+	top: 140px;
+	z-index: 1;
+}
+ 
+#recipe6name {
+	position: absolute;
+	left: 700px;
+	top: 85px;
+	line-height: 57px;
+	color: #2F4F4F;
+	text-decoration: underline;
+	text-decoration-color: #FF85C2;
+	z-index: 1;
+}
+ 
+#recipe6ul {
+	position: absolute;
+	width: 387px;
+	height: 180px;
+	left: 695px;
+	top: 212px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2F4F4F;
+	z-index: 1;
+}
+ 
+#recipe6ol {
+	position: absolute;
+	left: 695px;
+	top: 365px;
+	font-family: Basic Sans;
+	font-size: 18px;
+	line-height: 140%;
+	color: #2F4F4F;
+	z-index: 1;
+}
+
+/*mobile view*/
+@media only screen and (max-width: 500px) {
+ 
+h1 {
+	width: 190px;
+	height: 57px;
+	left: 75px;
+	top: -20px;
+	font-size: 115px;
+	line-height: 55px;
+}
+ 
+h2 {
+	left: 15px;
+	top: 105px;
+	font-size: 24px;
+	line-height: 48px;
+}
+
+/*restart buttons*/
+a.one {
+	width: 115px;
+	height: 42px;
+	left: 215px;
+	top: 950px;
+	font-size: 20px;
+}
+
+a.two {
+	width: 115px;
+	height: 42px;
+	left: 215px;
+	top: 630px;
+	font-size: 20px;
+}
+
+a.three {
+	width: 115px;
+	height: 42px;
+	left: 215px;
+	top: 950px;
+	font-size: 20px;
+}
+
+a.four {
+	width: 115px;
+	height: 42px;
+	left: 215px;
+	top: 850px;
+	font-size: 20px;
+}
+
+a.five {
+	width: 115px;
+	height: 42px;
+	left: 215px;
+	top: 900px;
+	font-size: 20px;
+}
+
+a.six {
+	width: 115px;
+	height: 42px;
+	left: 215px;
+	top: 720px;
+	font-size: 20px;
+}
+
+/*gif*/
+a.seven {
+	position: absolute;
+	left: 225px;
+	top: 870px;
+}
+ 
+/*moods*/
+ 
+#happy {
+    left: 150px;
+    top: 200px;
+    font-size: 30px;
+    height: 70px;
+}
+ 
+#sad {
+    left: 150px;
+    top: 310px;
+    font-size: 30px;
+    height: 70px;
+}
+ 
+#disgusted {
+    left: 150px;
+    top: 420px;
+    font-size: 30px;
+    height: 70px;
+}
+ 
+#scared {
+    left: 150px;
+    top: 530px;
+    font-size: 30px;
+    height: 70px;
+}
+ 
+#angry {
+    left: 150px;
+    top: 640px;
+    font-size: 30px;
+    height: 70px;
+}
+ 
+#surprised {
+    left: 150px;
+    top: 750px;
+    font-size: 30px;
+    height: 70px;
+}
+ 
+/*recipe 1*/
+ 
+img {
+	width: 75%;
+	height: auto;
+}
+ 
+#recipe1.active {
+	height: 900px;
+	width: 500px;
+}
+ 
+#recipe1img {
+	left: 120px;
+	top: 20px;
+}
+ 
+#recipe1name {
+	left: 100px;
+	top: 235px;
+	font-size: 30px;
+	line-height: 57px;
+}
+ 
+#recipe1ul {
+	left: 100px;
+	top: 360px;
+	font-size: 18px;
+	line-height: 22px;
+}
+ 
+#recipe1ol {
+	left: 80px;
+	top: 590px;
+	font-size: 18px;
+	line-height: 140%;
+}
+ 
+/*recipe 2*/
+ 
+#recipe2.active {
+	height: 500px;
+	width: 500px;
+}
+ 
+#recipe2img {
+	left: 120px;
+	top: 20px;
+}
+ 
+#recipe2name {
+	left: 100px;
+	top: 230px;
+	font-size: 30px;
+	line-height: 57px;
+}
+ 
+#recipe2ul {
+	left: 100px;
+	top: 360px;
+	font-size: 18px;
+	line-height: 22px;
+}
+ 
+#recipe2ol {
+	left: 80px;
+	top: 440px;
+	font-size: 18px;
+	line-height: 140%;
+}
+ 
+/*recipe 3*/
+ 
+#recipe3.active {
+	height: 900px;
+	width: 500px;
+}
+ 
+#recipe3img {
+	left: 120px;
+	top: 20px;
+}
+ 
+#recipe3name {
+	left: 100px;
+	top: 240px;
+	font-size: 30px;
+	line-height: 57px;
+}
+ 
+#recipe3ul {
+	left: 100px;
+	top: 360px;
+	font-size: 18px;
+	line-height: 22px;
+}
+ 
+#recipe3ol {
+	left: 80px;
+	top: 710px;
+	font-size: 18px;
+	line-height: 140%;
+}
+ 
+/*recipe 4*/
+ 
+#recipe4.active {
+	height: 300px;
+	width: 500px;
+}
+ 
+#recipe4img {
+	left: 120px;
+	top: 20px;
+}
+ 
+#recipe4name {
+	left: 50px;
+	top: 230px;
+	font-size: 30px;
+	line-height: 57px;
+}
+ 
+#recipe4ul {
+	left: 100px;
+	top: 355px;
+	font-size: 18px;
+	line-height: 22px;
+}
+ 
+#recipe4ol {
+	left: 70px;
+	top: 590px;
+	font-size: 18px;
+	line-height: 140%;
+}
+ 
+/*recipe 5*/
+ 
+#recipe5.active {
+	height: 900px;
+	width: 500px;
+}
+ 
+#recipe5img {
+	left: 120px;
+	top: 20px;
+}
+ 
+#recipe5name {
+	left: 80px;
+	top: 230px;
+	font-size: 30px;
+	line-height: 57px;
+}
+ 
+#recipe5ul {
+	left: 100px;
+	top: 350px;
+	font-size: 18px;
+	line-height: 22px;
+}
+ 
+#recipe5ol {
+	left: 80px;
+	top: 670px;
+	font-size: 18px;
+	line-height: 140%;
+}
+ 
+/*recipe 6*/
+ 
+#recipe6.active {
+	height: 600px;
+	width: 500px;
+}
+ 
+#recipe6img {
+	left: 120px;
+	top: 20px;
+}
+ 
+#recipe6name {
+	left: 100px;
+	top: 235px;
+	font-size: 30px;
+	line-height: 57px;
+}
+ 
+#recipe6ul {
+	left: 100px;
+	top: 360px;
+	font-size: 18px;
+	line-height: 22px;
+}
+ 
+#recipe6ol {
+	left: 80px;
+	top: 510px;
+	font-size: 18px;
+	line-height: 140%;
+}
